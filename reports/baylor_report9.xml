@@ -1,0 +1,261 @@
+<?xml-stylesheet type="text/xsl" href="../emerge.xsl">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<org.pcpgm.gis.fedmsg.v4.Envelope>
+    <origin>
+        <org.pcpgm.gis.fedmsg.v4.EnvelopeSender>
+            <senderId>BCM HGSC Clinical Laboratory</senderId>
+            <timestampMs>1494432725775</timestampMs>
+        </org.pcpgm.gis.fedmsg.v4.EnvelopeSender>
+    </origin>
+    <objMessage class="hgsc.siteReport">
+        <report>
+            <reportIdentifier>V100000-V100000-1000046077-1494432330.67</reportIdentifier>
+            <vipFile>/hgsccl/next-gen/neptune/vip/vip.2016-11-07</vipFile>
+            <geneCoverage>
+                <genes>
+                    <gene>
+                        <name>APOB</name>
+                        <coverage>99.39</coverage>
+                    </gene>
+                    <gene>
+                        <name>CACNA1B</name>
+                        <coverage>97.08</coverage>
+                    </gene>
+                    <gene>
+                        <name>COL5A1</name>
+                        <coverage>98.03</coverage>
+                    </gene>
+                    <gene>
+                        <name>KCNQ1</name>
+                        <coverage>95.11</coverage>
+                    </gene>
+                    <gene>
+                        <name>RYR1</name>
+                        <coverage>98.69</coverage>
+                    </gene>
+                    <gene>
+                        <name>TGFBR1</name>
+                        <coverage>93.56</coverage>
+                    </gene>
+                </genes>
+            </geneCoverage>
+            <addendums/>
+            <indicationText>Arrhythmia</indicationText>
+            <genomicSource>
+                <codeSystem>LN</codeSystem>
+                <codeText>Germline</codeText>
+                <code>LA6683-2</code>
+                <valueSetAbbr>Germline</valueSetAbbr>
+            </genomicSource>
+            <overallInterpretation>
+                <codeSystem>LN</codeSystem>
+                <codeText>Positive</codeText>
+                <code>LA6576-8</code>
+                <valueSetAbbr>Positive</valueSetAbbr>
+            </overallInterpretation>
+            <testType>
+                <codeSystem>LN</codeSystem>
+                <codeText>Genetic disease analysis overall interpretation</codeText>
+                <code>51968-6</code>
+                <valueSetAbbr>Genetic disease analysis overall interpretation</valueSetAbbr>
+            </testType>
+            <status>FINAL</status>
+            <caseType>CLINICAL</caseType>
+            <labStatus>COMPLETE</labStatus>
+            <editedBy>
+                <byName>user-venner</byName>
+                <onDate>2017-05-10T06:00:00Z</onDate>
+            </editedBy>
+            <statusBy>
+                <byName>user-venner</byName>
+                <onDate>2017-05-10T06:00:00Z</onDate>
+            </statusBy>
+            <order>
+                <orderDate></orderDate>
+                <senderPatientNumber>V100000</senderPatientNumber>
+                <senderFacilityName>UNKNOWN</senderFacilityName>
+                <senderOrderNumber>V100000</senderOrderNumber>
+                <senderLabControlNumber>V100000_V100000_100100</senderLabControlNumber>
+                <localOrderNumber>100100</localOrderNumber>
+            </order>
+            <patient>
+                <firstName>FirstName1</firstName>
+                <middleName></middleName>
+                <lastName>LastName1</lastName>
+                <dateOfBirth>1959-11-04T06:00:00Z</dateOfBirth>
+                <raceOrEthnicity>
+                    <org.pcpgm.gis.fedmsg.v4.Code>
+                        <codeSystem>CDC-NEDSS</codeSystem>
+                        <codeText>Black or African American</codeText>
+                        <code>2054-5</code>
+                        <valueSetAbbr>Black or African American</valueSetAbbr>
+                    </org.pcpgm.gis.fedmsg.v4.Code>
+                    <org.pcpgm.gis.fedmsg.v4.Code>
+                        <codeSystem>Baylor</codeSystem>
+                        <codeText>Not Hispanic or Latino</codeText>
+                        <code>Baylor</code>
+                        <valueSetAbbr>Not Hispanic or Latino</valueSetAbbr>
+                    </org.pcpgm.gis.fedmsg.v4.Code>
+                </raceOrEthnicity>
+                <sex>
+                    <codeSystem>HL7-TABLE-0001</codeSystem>
+                    <codeText>Male</codeText>
+                    <code>M</code>
+                    <valueSetAbbr>Male</valueSetAbbr>
+                </sex>
+                <diseaseStatus>AFFECTED</diseaseStatus>
+                <deidentified>false</deidentified>
+            </patient>
+            <physicians>
+                <org.pcpgm.gis.fedmsg.v4.Physician>
+                    <firstName>Mock Prinicipal Investigator</firstName>
+                    <lastName>2</lastName>
+                </org.pcpgm.gis.fedmsg.v4.Physician>
+            </physicians>
+            <reportVariants>
+                <org.pcpgm.gis.fedmsg.v4.ReportVariant>
+                    <externalId>10183627,3,GT,G</externalId>
+                    <transcriptId>NM_000551.3</transcriptId>
+                    <dnaChange>c.97del</dnaChange>
+                    <aminoAcidChange>p.S33fs</aminoAcidChange>
+                    <chromosome>3</chromosome>
+                    <geneSymbol>VHL</geneSymbol>
+                    <significant>true</significant>
+                    <interrogatedButNotFound>false</interrogatedButNotFound>
+                    <notInterpreted>false</notInterpreted>
+                    <notes>, Genet Med. 2013 Vol 15, p.565. Novel variant.  </notes>
+                    <alleleState>
+                        <codeSystem>LN</codeSystem>
+                        <codeText>Heterozygous</codeText>
+                        <code>LA6706-1</code>
+                        <valueSetAbbr>Heterozygous</valueSetAbbr>
+                    </alleleState>
+                    <categoryType>MEDICALLY_SIGNIFICANT</categoryType>
+                    <category>
+                        <codeSystem>LN</codeSystem>
+                        <codeText>Pathogenic</codeText>
+                        <code>LA6668-3</code>
+                        <valueSetAbbr>Pathogenic</valueSetAbbr>
+                    </category>
+                    <genomicSource>
+                        <codeSystem>LN</codeSystem>
+                        <codeText>Germline</codeText>
+                        <code>LA6683-2</code>
+                        <valueSetAbbr>Germline</valueSetAbbr>
+                    </genomicSource>
+                    <confirmedStatus>
+                        <confirmedBySanger>false</confirmedBySanger>
+                    </confirmedStatus>
+                </org.pcpgm.gis.fedmsg.v4.ReportVariant>
+            </reportVariants>
+            <reportAssays>
+                <org.pcpgm.gis.fedmsg.v4.ReportAssay>
+                    <assayVersionExternalId>20160822</assayVersionExternalId>
+                    <testName>eMERGE-Seq</testName>
+                    <testCode>eMERGE-Seq</testCode>
+                </org.pcpgm.gis.fedmsg.v4.ReportAssay>
+            </reportAssays>
+            <specimens>
+                <org.pcpgm.gis.fedmsg.v4.Specimen>
+                    <label>V100000</label>
+                    <type>
+                        <codeSystem>EMERGE-GIS-LOCAL</codeSystem>
+                        <codeText>DNA, Isolated</codeText>
+                        <code>10037-9</code>
+                        <valueSetAbbr>DNA, Isolated</valueSetAbbr>
+                    </type>
+                    <collectionDate>1999-01-14T06:00:00Z</collectionDate>
+                    <receivedDate>2016-01-01T06:00:00Z</receivedDate>
+                </org.pcpgm.gis.fedmsg.v4.Specimen>
+            </specimens>
+            <patientDiseases>
+                <org.pcpgm.gis.fedmsg.v4.ReportDisease>
+                    <name>Arrhythmia</name>
+                    <diseaseCode>
+                        <codeSystem>MESH</codeSystem>
+                        <codeText>Arrhythmia</codeText>
+                        <code>MESH D001145 (arrhythmias, cardiac)</code>
+                        <valueSetAbbr>Arrhythmia</valueSetAbbr>
+                    </diseaseCode>
+                </org.pcpgm.gis.fedmsg.v4.ReportDisease>
+            </patientDiseases>
+            <interpretedDiseases>
+                <org.pcpgm.gis.fedmsg.v4.ReportDisease>
+                    <name>Von Hippel-Lindau disease [MIM 193300]</name>
+                    <diseaseCode>
+                        <codeSystem>MIM</codeSystem>
+                        <codeText>Von Hippel-Lindau disease [MIM 193300]</codeText>
+                        <code>193300</code>
+                        <valueSetAbbr>Von Hippel-Lindau disease [MIM 193300]</valueSetAbbr>
+                    </diseaseCode>
+                </org.pcpgm.gis.fedmsg.v4.ReportDisease>
+            </interpretedDiseases>
+        </report>
+        <refVariants>
+            <org.pcpgm.gis.fedmsg.v4.ReferenceVariant>
+                <externalId>10183627,3,GT,G</externalId>
+                <transcriptId>NM_000551.3</transcriptId>
+                <dnaChange>c.97del</dnaChange>
+                <aminoAcidChange>p.S33fs</aminoAcidChange>
+                <chromosome>3</chromosome>
+                <reportDnaChange>g.10183628del</reportDnaChange>
+                <geneIdentifier>
+                    <codeSystem>HGNC</codeSystem>
+                    <codeText>VHL</codeText>
+                    <code>VHL</code>
+                    <authority>HUGO</authority>
+                    <authorityName>Human Genome Organization</authorityName>
+                </geneIdentifier>
+                <alignments>
+                    <org.pcpgm.gis.fedmsg.v4.ReferenceVariantAlignment>
+                        <genomeBuildName>hg19</genomeBuildName>
+                        <chromosome>3</chromosome>
+                        <startPosition>10183627</startPosition>
+                        <wildtypeSeq>GT</wildtypeSeq>
+                        <variantSeq>G</variantSeq>
+                    </org.pcpgm.gis.fedmsg.v4.ReferenceVariantAlignment>
+                </alignments>
+                <currentInterpRevision>
+                    <variantExternalId>10183627,3,GT,G</variantExternalId>
+                    <contentApproval>
+                        <byName>user-venner</byName>
+                        <onDate>2017-05-10T06:00:00Z</onDate>
+                    </contentApproval>
+                    <approval>
+                        <byName>user-venner</byName>
+                        <onDate>2017-05-10T06:00:00Z</onDate>
+                    </approval>
+                    <interpretations>
+                        <org.pcpgm.gis.fedmsg.v4.VariantInterp>
+                            <categoryType>MEDICALLY_SIGNIFICANT</categoryType>
+                            <categoryCode>
+<codeSystem>LN</codeSystem>
+<codeText>Pathogenic</codeText>
+<code>LA6668-3</code>
+<valueSetAbbr>Pathogenic</valueSetAbbr>
+                            </categoryCode>
+                            <inheritance>AD</inheritance>
+                            <interpretationText></interpretationText>
+                            <diseaseCodes>
+<org.pcpgm.gis.fedmsg.v4.Code>
+    <codeSystem>MIM</codeSystem>
+    <codeText>Von Hippel-Lindau disease [MIM 193300]</codeText>
+    <code>193300</code>
+    <valueSetAbbr>Von Hippel-Lindau disease [MIM 193300]</valueSetAbbr>
+</org.pcpgm.gis.fedmsg.v4.Code>
+                            </diseaseCodes>
+                        </org.pcpgm.gis.fedmsg.v4.VariantInterp>
+                    </interpretations>
+                </currentInterpRevision>
+            </org.pcpgm.gis.fedmsg.v4.ReferenceVariant>
+        </refVariants>
+        <refAssayVersions>
+            <org.pcpgm.gis.fedmsg.v4.ReferenceAssayVersion>
+                <externalIdentifier>20160822</externalIdentifier>
+                <testName>eMERGE-Seq</testName>
+                <testCode>eMERGE-Seq</testCode>
+                <methodology>UNKNOWN</methodology>
+            </org.pcpgm.gis.fedmsg.v4.ReferenceAssayVersion>
+        </refAssayVersions>
+    </objMessage>
+</org.pcpgm.gis.fedmsg.v4.Envelope>

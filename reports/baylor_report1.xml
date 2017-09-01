@@ -1,0 +1,391 @@
+<?xml-stylesheet type="text/xsl" href="../emerge.xsl">
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<org.pcpgm.gis.fedmsg.v4.Envelope>
+    <origin>
+        <org.pcpgm.gis.fedmsg.v4.EnvelopeSender>
+            <senderId>BCM HGSC Clinical Laboratory</senderId>
+            <timestampMs>1494432724138</timestampMs>
+        </org.pcpgm.gis.fedmsg.v4.EnvelopeSender>
+    </origin>
+    <objMessage class="hgsc.siteReport">
+        <report>
+            <reportIdentifier>V100000-V100000-1000046077-1494432336.91</reportIdentifier>
+            <vipFile>/hgsccl/next-gen/neptune/vip/vip.2016-11-07</vipFile>
+            <geneCoverage>
+                <genes>
+                    <gene>
+                        <name>APOB</name>
+                        <coverage>99.39</coverage>
+                    </gene>
+                    <gene>
+                        <name>CACNA1B</name>
+                        <coverage>97.20</coverage>
+                    </gene>
+                    <gene>
+                        <name>COL5A1</name>
+                        <coverage>98.03</coverage>
+                    </gene>
+                    <gene>
+                        <name>KCNQ1</name>
+                        <coverage>96.48</coverage>
+                    </gene>
+                    <gene>
+                        <name>RYR1</name>
+                        <coverage>98.76</coverage>
+                    </gene>
+                    <gene>
+                        <name>TGFBR1</name>
+                        <coverage>93.56</coverage>
+                    </gene>
+                </genes>
+            </geneCoverage>
+            <addendums/>
+            <indicationText>Arrhythmia</indicationText>
+            <genomicSource>
+                <codeSystem>LN</codeSystem>
+                <codeText>Germline</codeText>
+                <code>LA6683-2</code>
+                <valueSetAbbr>Germline</valueSetAbbr>
+            </genomicSource>
+            <overallInterpretation>
+                <codeSystem>LN</codeSystem>
+                <codeText>Positive</codeText>
+                <code>LA6576-8</code>
+                <valueSetAbbr>Positive</valueSetAbbr>
+            </overallInterpretation>
+            <testType>
+                <codeSystem>LN</codeSystem>
+                <codeText>Genetic disease analysis overall interpretation</codeText>
+                <code>51968-6</code>
+                <valueSetAbbr>Genetic disease analysis overall interpretation</valueSetAbbr>
+            </testType>
+            <status>FINAL</status>
+            <caseType>CLINICAL</caseType>
+            <labStatus>COMPLETE</labStatus>
+            <editedBy>
+                <byName>user-venner</byName>
+                <onDate>2017-05-10T06:00:00Z</onDate>
+            </editedBy>
+            <statusBy>
+                <byName>user-venner</byName>
+                <onDate>2017-05-10T06:00:00Z</onDate>
+            </statusBy>
+            <order>
+                <orderDate></orderDate>
+                <senderPatientNumber>V100000</senderPatientNumber>
+                <senderFacilityName>UNKNOWN</senderFacilityName>
+                <senderOrderNumber>V100000</senderOrderNumber>
+                <senderLabControlNumber>V100000_V100000_100105</senderLabControlNumber>
+                <localOrderNumber>100105</localOrderNumber>
+            </order>
+            <patient>
+                <firstName>FirstName1</firstName>
+                <middleName></middleName>
+                <lastName>LastName1</lastName>
+                <dateOfBirth>1959-11-04T06:00:00Z</dateOfBirth>
+                <raceOrEthnicity>
+                    <org.pcpgm.gis.fedmsg.v4.Code>
+                        <codeSystem>CDC-NEDSS</codeSystem>
+                        <codeText>Black or African American</codeText>
+                        <code>2054-5</code>
+                        <valueSetAbbr>Black or African American</valueSetAbbr>
+                    </org.pcpgm.gis.fedmsg.v4.Code>
+                    <org.pcpgm.gis.fedmsg.v4.Code>
+                        <codeSystem>Baylor</codeSystem>
+                        <codeText>Not Hispanic or Latino</codeText>
+                        <code>Baylor</code>
+                        <valueSetAbbr>Not Hispanic or Latino</valueSetAbbr>
+                    </org.pcpgm.gis.fedmsg.v4.Code>
+                </raceOrEthnicity>
+                <sex>
+                    <codeSystem>HL7-TABLE-0001</codeSystem>
+                    <codeText>Male</codeText>
+                    <code>M</code>
+                    <valueSetAbbr>Male</valueSetAbbr>
+                </sex>
+                <diseaseStatus>AFFECTED</diseaseStatus>
+                <deidentified>false</deidentified>
+            </patient>
+            <physicians>
+                <org.pcpgm.gis.fedmsg.v4.Physician>
+                    <firstName>Mock Prinicipal Investigator</firstName>
+                    <lastName>2</lastName>
+                </org.pcpgm.gis.fedmsg.v4.Physician>
+            </physicians>
+            <reportVariants>
+                <org.pcpgm.gis.fedmsg.v4.ReportVariant>
+                    <externalId>117199644,7,ATCT,A</externalId>
+                    <transcriptId>NM_000492.3</transcriptId>
+                    <dnaChange>c.1520_1522del</dnaChange>
+                    <aminoAcidChange>p.507_508del</aminoAcidChange>
+                    <chromosome>7</chromosome>
+                    <geneSymbol>CFTR</geneSymbol>
+                    <significant>true</significant>
+                    <interrogatedButNotFound>false</interrogatedButNotFound>
+                    <notInterpreted>false</notInterpreted>
+                    <notes>PMID 2475911, 21983488, 21111762, 20628052, 21228398, 25763566, 21594800, 7540133, 10103316, 26149808, 15141088, 24440181, 19837664, 22390181, 22366207, 22569626, 23104983, 25697321, 21152102, 21486785, 2570460, 22975760, 23907436, 22449949, 11547256, 22680785, 21907281, 11186891, 23436935, 22658665, 21411740, 19925455, 25330774, 20619026, 24696795, 19878303, 25042876, 23361109, 23974870, 20667826, 25636364, 23067305, 22999299, 20696241, 23891399, 15246977, 21965669, 20687163, 18234567, 26800689, 8659542, 24435787, 22332135, 20021716, 23378603, 9272738, 23781395, 21520337, 26989879, 17206681, </notes>
+                    <alleleState>
+                        <codeSystem>LN</codeSystem>
+                        <codeText>Heterozygous</codeText>
+                        <code>LA6706-1</code>
+                        <valueSetAbbr>Heterozygous</valueSetAbbr>
+                    </alleleState>
+                    <categoryType>MEDICALLY_SIGNIFICANT</categoryType>
+                    <category>
+                        <codeSystem>LN</codeSystem>
+                        <codeText>Pathogenic</codeText>
+                        <code>LA6668-3</code>
+                        <valueSetAbbr>Pathogenic</valueSetAbbr>
+                    </category>
+                    <genomicSource>
+                        <codeSystem>LN</codeSystem>
+                        <codeText>Germline</codeText>
+                        <code>LA6683-2</code>
+                        <valueSetAbbr>Germline</valueSetAbbr>
+                    </genomicSource>
+                    <confirmedStatus>
+                        <confirmedBySanger>false</confirmedBySanger>
+                    </confirmedStatus>
+                </org.pcpgm.gis.fedmsg.v4.ReportVariant>
+                <org.pcpgm.gis.fedmsg.v4.ReportVariant>
+                    <externalId>29091856,22,AG,A</externalId>
+                    <transcriptId>NM_007194.3</transcriptId>
+                    <dnaChange>c.1100del</dnaChange>
+                    <aminoAcidChange>p.T367fs</aminoAcidChange>
+                    <chromosome>22</chromosome>
+                    <geneSymbol>CHEK2</geneSymbol>
+                    <significant>true</significant>
+                    <interrogatedButNotFound>false</interrogatedButNotFound>
+                    <notInterpreted>false</notInterpreted>
+                    <notes>PMID 10617473, 23415889, 21876083, 22520019, 20722467, 21244692, 11719428, 19030985, 23329222, 11967536, 22994785, 22058428, 18759107, 23409019, 22691310, 25980754, 23109706, 24723567, 21956126, 15492928, 22006311, 22058216, 25583358, 22811390</notes>
+                    <alleleState>
+                        <codeSystem>LN</codeSystem>
+                        <codeText>Homozygous</codeText>
+                        <code>LA6706-1</code>
+                        <valueSetAbbr>Heterozygous</valueSetAbbr>
+                    </alleleState>
+                    <categoryType>MEDICALLY_SIGNIFICANT</categoryType>
+                    <category>
+                        <codeSystem>LN</codeSystem>
+                        <codeText>Pathogenic</codeText>
+                        <code>LA6668-3</code>
+                        <valueSetAbbr>Pathogenic</valueSetAbbr>
+                    </category>
+                    <genomicSource>
+                        <codeSystem>LN</codeSystem>
+                        <codeText>Germline</codeText>
+                        <code>LA6683-2</code>
+                        <valueSetAbbr>Germline</valueSetAbbr>
+                    </genomicSource>
+                    <confirmedStatus>
+                        <confirmedBySanger>false</confirmedBySanger>
+                    </confirmedStatus>
+                </org.pcpgm.gis.fedmsg.v4.ReportVariant>
+            </reportVariants>
+            <reportAssays>
+                <org.pcpgm.gis.fedmsg.v4.ReportAssay>
+                    <assayVersionExternalId>20160822</assayVersionExternalId>
+                    <testName>eMERGE-Seq</testName>
+                    <testCode>eMERGE-Seq</testCode>
+                </org.pcpgm.gis.fedmsg.v4.ReportAssay>
+            </reportAssays>
+            <specimens>
+                <org.pcpgm.gis.fedmsg.v4.Specimen>
+                    <label>V100000</label>
+                    <type>
+                        <codeSystem>EMERGE-GIS-LOCAL</codeSystem>
+                        <codeText>DNA, Isolated</codeText>
+                        <code>10037-9</code>
+                        <valueSetAbbr>DNA, Isolated</valueSetAbbr>
+                    </type>
+                    <collectionDate>1999-01-14T06:00:00Z</collectionDate>
+                    <receivedDate>2016-01-01T06:00:00Z</receivedDate>
+                </org.pcpgm.gis.fedmsg.v4.Specimen>
+            </specimens>
+            <patientDiseases>
+                <org.pcpgm.gis.fedmsg.v4.ReportDisease>
+                    <name>Arrhythmia</name>
+                    <diseaseCode>
+                        <codeSystem>MESH</codeSystem>
+                        <codeText>Arrhythmia</codeText>
+                        <code>MESH D001145 (arrhythmias, cardiac)</code>
+                        <valueSetAbbr>Arrhythmia</valueSetAbbr>
+                    </diseaseCode>
+                </org.pcpgm.gis.fedmsg.v4.ReportDisease>
+            </patientDiseases>
+            <interpretedDiseases>
+                <org.pcpgm.gis.fedmsg.v4.ReportDisease>
+                    <name>Susceptibility to breast cancer [MIM 114480]</name>
+                    <diseaseCode>
+                        <codeSystem>MIM</codeSystem>
+                        <codeText>Susceptibility to breast cancer [MIM 114480]</codeText>
+                        <code>114480</code>
+                        <valueSetAbbr>Susceptibility to breast cancer [MIM 114480]</valueSetAbbr>
+                    </diseaseCode>
+                </org.pcpgm.gis.fedmsg.v4.ReportDisease>
+                <org.pcpgm.gis.fedmsg.v4.ReportDisease>
+                    <name>Congenital bilateral absence of the vas deferens [MIM 277180]</name>
+                    <diseaseCode>
+                        <codeSystem>MIM</codeSystem>
+                        <codeText>Congenital bilateral absence of the vas deferens [MIM 277180]</codeText>
+                        <code>277180</code>
+                        <valueSetAbbr>Congenital bilateral absence of the vas deferens [MIM 277180]</valueSetAbbr>
+                    </diseaseCode>
+                </org.pcpgm.gis.fedmsg.v4.ReportDisease>
+                <org.pcpgm.gis.fedmsg.v4.ReportDisease>
+                    <name>Cystic fibrosis [MIM 219700]</name>
+                    <diseaseCode>
+                        <codeSystem>MIM</codeSystem>
+                        <codeText>Cystic fibrosis [MIM 219700]</codeText>
+                        <code>219700</code>
+                        <valueSetAbbr>Cystic fibrosis [MIM 219700]</valueSetAbbr>
+                    </diseaseCode>
+                </org.pcpgm.gis.fedmsg.v4.ReportDisease>
+                <org.pcpgm.gis.fedmsg.v4.ReportDisease>
+                    <name>Susceptibility to prostate cancer [MIM 176807]</name>
+                    <diseaseCode>
+                        <codeSystem>MIM</codeSystem>
+                        <codeText>Susceptibility to prostate cancer [MIM 176807]</codeText>
+                        <code>176807</code>
+                        <valueSetAbbr>Susceptibility to prostate cancer [MIM 176807]</valueSetAbbr>
+                    </diseaseCode>
+                </org.pcpgm.gis.fedmsg.v4.ReportDisease>
+            </interpretedDiseases>
+        </report>
+        <refVariants>
+            <org.pcpgm.gis.fedmsg.v4.ReferenceVariant>
+                <externalId>117199644,7,ATCT,A</externalId>
+                <transcriptId>NM_000492.3</transcriptId>
+                <dnaChange>c.1520_1522del</dnaChange>
+                <aminoAcidChange>p.507_508del</aminoAcidChange>
+                <chromosome>7</chromosome>
+                <reportDnaChange>g.117199645_117199647del</reportDnaChange>
+                <geneIdentifier>
+                    <codeSystem>HGNC</codeSystem>
+                    <codeText>CFTR</codeText>
+                    <code>CFTR</code>
+                    <authority>HUGO</authority>
+                    <authorityName>Human Genome Organization</authorityName>
+                </geneIdentifier>
+                <alignments>
+                    <org.pcpgm.gis.fedmsg.v4.ReferenceVariantAlignment>
+                        <genomeBuildName>hg19</genomeBuildName>
+                        <chromosome>7</chromosome>
+                        <startPosition>117199644</startPosition>
+                        <wildtypeSeq>ATCT</wildtypeSeq>
+                        <variantSeq>A</variantSeq>
+                    </org.pcpgm.gis.fedmsg.v4.ReferenceVariantAlignment>
+                </alignments>
+                <currentInterpRevision>
+                    <variantExternalId>117199644,7,ATCT,A</variantExternalId>
+                    <contentApproval>
+                        <byName>user-venner</byName>
+                        <onDate>2017-05-10T06:00:00Z</onDate>
+                    </contentApproval>
+                    <approval>
+                        <byName>user-venner</byName>
+                        <onDate>2017-05-10T06:00:00Z</onDate>
+                    </approval>
+                    <interpretations>
+                        <org.pcpgm.gis.fedmsg.v4.VariantInterp>
+                            <categoryType>MEDICALLY_SIGNIFICANT</categoryType>
+                            <categoryCode>
+                                <codeSystem>LN</codeSystem>
+                                <codeText>Pathogenic</codeText>
+                                <code>LA6668-3</code>
+                                <valueSetAbbr>Pathogenic</valueSetAbbr>
+                            </categoryCode>
+                            <inheritance>AR</inheritance>
+                            <interpretationText></interpretationText>
+                            <diseaseCodes>
+                                <org.pcpgm.gis.fedmsg.v4.Code>
+                                    <codeSystem>MIM</codeSystem>
+                                    <codeText>Cystic fibrosis [MIM 219700]</codeText>
+                                    <code>219700</code>
+                                    <valueSetAbbr>Cystic fibrosis [MIM 219700]</valueSetAbbr>
+                                </org.pcpgm.gis.fedmsg.v4.Code>
+                                <org.pcpgm.gis.fedmsg.v4.Code>
+                                    <codeSystem>MIM</codeSystem>
+                                    <codeText>Congenital bilateral absence of the vas deferens [MIM 277180]</codeText>
+                                    <code>277180</code>
+                                    <valueSetAbbr>Congenital bilateral absence of the vas deferens [MIM 277180]</valueSetAbbr>
+                                </org.pcpgm.gis.fedmsg.v4.Code>
+                            </diseaseCodes>
+                        </org.pcpgm.gis.fedmsg.v4.VariantInterp>
+                    </interpretations>
+                </currentInterpRevision>
+            </org.pcpgm.gis.fedmsg.v4.ReferenceVariant>
+            <org.pcpgm.gis.fedmsg.v4.ReferenceVariant>
+                <externalId>29091856,22,AG,A</externalId>
+                <transcriptId>NM_007194.3</transcriptId>
+                <dnaChange>c.1100del</dnaChange>
+                <aminoAcidChange>p.T367fs</aminoAcidChange>
+                <chromosome>22</chromosome>
+                <reportDnaChange>g.29091857del</reportDnaChange>
+                <geneIdentifier>
+                    <codeSystem>HGNC</codeSystem>
+                    <codeText>CHEK2</codeText>
+                    <code>CHEK2</code>
+                    <authority>HUGO</authority>
+                    <authorityName>Human Genome Organization</authorityName>
+                </geneIdentifier>
+                <alignments>
+                    <org.pcpgm.gis.fedmsg.v4.ReferenceVariantAlignment>
+                        <genomeBuildName>hg19</genomeBuildName>
+                        <chromosome>22</chromosome>
+                        <startPosition>29091856</startPosition>
+                        <wildtypeSeq>AG</wildtypeSeq>
+                        <variantSeq>A</variantSeq>
+                    </org.pcpgm.gis.fedmsg.v4.ReferenceVariantAlignment>
+                </alignments>
+                <currentInterpRevision>
+                    <variantExternalId>29091856,22,AG,A</variantExternalId>
+                    <contentApproval>
+                        <byName>user-venner</byName>
+                        <onDate>2017-05-10T06:00:00Z</onDate>
+                    </contentApproval>
+                    <approval>
+                        <byName>user-venner</byName>
+                        <onDate>2017-05-10T06:00:00Z</onDate>
+                    </approval>
+                    <interpretations>
+                        <org.pcpgm.gis.fedmsg.v4.VariantInterp>
+                            <categoryType>MEDICALLY_SIGNIFICANT</categoryType>
+                            <categoryCode>
+<codeSystem>LN</codeSystem>
+<codeText>Pathogenic</codeText>
+<code>LA6668-3</code>
+<valueSetAbbr>Pathogenic</valueSetAbbr>
+                            </categoryCode>
+                            <inheritance>AD</inheritance>
+                            <interpretationText></interpretationText>
+                            <diseaseCodes>
+<org.pcpgm.gis.fedmsg.v4.Code>
+    <codeSystem>MIM</codeSystem>
+    <codeText>Susceptibility to breast cancer [MIM 114480]</codeText>
+    <code>114480</code>
+    <valueSetAbbr>Susceptibility to breast cancer [MIM 114480]</valueSetAbbr>
+</org.pcpgm.gis.fedmsg.v4.Code>
+<org.pcpgm.gis.fedmsg.v4.Code>
+    <codeSystem>MIM</codeSystem>
+    <codeText>Susceptibility to prostate cancer [MIM 176807]</codeText>
+    <code>176807</code>
+    <valueSetAbbr>Susceptibility to prostate cancer [MIM 176807]</valueSetAbbr>
+</org.pcpgm.gis.fedmsg.v4.Code>
+                            </diseaseCodes>
+                        </org.pcpgm.gis.fedmsg.v4.VariantInterp>
+                    </interpretations>
+                </currentInterpRevision>
+            </org.pcpgm.gis.fedmsg.v4.ReferenceVariant>
+        </refVariants>
+        <refAssayVersions>
+            <org.pcpgm.gis.fedmsg.v4.ReferenceAssayVersion>
+                <externalIdentifier>20160822</externalIdentifier>
+                <testName>eMERGE-Seq</testName>
+                <testCode>eMERGE-Seq</testCode>
+                <methodology>UNKNOWN</methodology>
+            </org.pcpgm.gis.fedmsg.v4.ReferenceAssayVersion>
+        </refAssayVersions>
+    </objMessage>
+</org.pcpgm.gis.fedmsg.v4.Envelope>
